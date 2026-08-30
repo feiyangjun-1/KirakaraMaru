@@ -10,7 +10,7 @@
 3. 程序生成的字体会有不协调的问题。
 4. 虽然已经人工检查，但可能还是会有部分字有错误（少比划之类的）。
 5. 亠部仍然是竖横，这个如果要改掉的话训练用字就就几乎没了，所以没改。
-6. 之后可能会使用我自己正在进行开发的 [HanziStyleForge](https://github.com/feiyangjun-1/HanziStyleForge) 测试看看效果如何。
+6. 之后可能会使用我自己正在进行开发的 [HanziStyleForge](https://github.com/feiyangjun-1/HanziStyleForge) 重新生成测试看看效果如何。
 7. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/kirakara-round/issues) 提出。
 
 本字体使用 OFL 协议，可免费商用、修改等。
