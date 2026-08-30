@@ -1,6 +1,6 @@
 # kirakara-round
 
-本字体以 [寒蝉全圆体](https://github.com/Warren2060/ChillRound) 为目标字体，以 [思源黑体CN](https://github.com/adobe-fonts/source-han-sans) 为结构参考字体，人工挑选符合大陆规范的 4991 字后使用 [zi2zi-JiT](https://github.com/kaonashi-tyc/zi2zi-JiT) 训练，生成1661规范字。
+本字体以 [寒蝉全圆体](https://github.com/Warren2060/ChillRound) 为目标字体，以 [思源黑体CN](https://github.com/adobe-fonts/source-han-sans) 为结构参考字体，人工挑选符合大陆规范的 4991 字后使用 [zi2zi-JiT](https://github.com/kaonashi-tyc/zi2zi-JiT) 训练，生成1661规范字。支持 GB2312 字符集。
 
 ![预览](1.jpg)
 
