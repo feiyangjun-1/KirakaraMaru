@@ -1,9 +1,7 @@
 # kirakara-round
 
 本字体以[寒蝉全圆体](https://github.com/Warren2060/ChillRound)为基础，人工挑选符合大陆规范的4991字后使用 [zi2zi-JiT](https://github.com/kaonashi-tyc/zi2zi-JiT) 训练，生成1661规范字。
-<p align="center">
-  <img src="1.jpg">
-</p>
+![预览](1.jpg)
 注意事项：
 1. 程序生成出来的是 png 图片，矢量化后字体会有边缘不够平滑、点数太多的问题。
 2. 其中 110 字由于程序一直生成不出来，是手动使用已生成的部件进行替换调整的。
