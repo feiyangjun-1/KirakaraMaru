@@ -15,7 +15,7 @@
 8. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/kirakara-round/issues) 提出。
 
 已知问题：
-“给”变成金字旁
-“以”太奇怪了
+1. “给”变成金字旁
+2. “以”太奇怪了
 
 本字体使用 OFL 协议，可免费商用、修改等。
