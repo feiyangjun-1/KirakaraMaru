@@ -14,9 +14,11 @@
 7. 之后可能会使用我自己正在进行开发的 [HanziStyleForge](https://github.com/feiyangjun-1/HanziStyleForge) 重新生成测试看看效果如何。
 8. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/kirakara-round/issues) 提出。
 
-已知问题：
+下个版本修复：
 1. “给”变成金字旁
 2. “以”太奇怪了
-3. 衤礻上面是竖，不是点。
+3. 衤礻上面是竖，不是点
+4. “忝”及“焰”字为非国标字形
+5. 将希腊字母与西里尔字母替换为最新版jf open粉圆的非全宽版本
 
 本字体使用 OFL 协议，可免费商用、修改等。
