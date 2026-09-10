@@ -4,7 +4,7 @@
 
 目前已覆盖绝大部分 GB2312、现代汉语常用字表、现代汉语通用字表、义务教育语文课程常用字表、通用规范汉字表和[「外字初步整理表」（第一部分）](https://github.com/lxgw/ext-characters/blob/main/tables/ext_characters_table_1.md)。
 
-![预览](1.jpg)
+![预览](eg.jpg)
 
 注意事项：
 1. 程序生成出来的是 256像素的 png 图片，矢量化后字体会有边缘不够平滑、点数太多的问题。
