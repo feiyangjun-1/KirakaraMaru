@@ -1,6 +1,6 @@
 # 耀圆体 KirakaraMaru
 
-本字体以 [寒蝉全圆体](https://github.com/Warren2060/ChillRound) 为目标字体，挑选原字体中符合大陆规范的字，人工调整一些字后使用 zi2zi-JiT 训练其风格，以 [思源黑体CN](https://github.com/adobe-fonts/source-han-sans)、[文渊黑体、文渊宋体](https://github.com/takushun-wu/WenYuanFonts)、[Jigmo](https://kamichikoichi.github.io/jigmo/) 为结构参考字体，重新生成剩余字。
+本字体以 [寒蝉全圆体](https://github.com/Warren2060/ChillRound) 为目标字体，挑选原字体中符合大陆规范的字，人工调整一些字后使用 [zi2zi-JiT](https://github.com/kaonashi-tyc/zi2zi-JiT) 训练其风格，以 [思源黑体CN](https://github.com/adobe-fonts/source-han-sans)、[文渊黑体、文渊宋体](https://github.com/takushun-wu/WenYuanFonts)、[Jigmo](https://kamichikoichi.github.io/jigmo/) 为结构参考字体，重新生成剩余字。
 
 目前已覆盖绝大部分 GB2312、现代汉语常用字表、现代汉语通用字表、义务教育语文课程常用字表、通用规范汉字表和[落霞孤鹜 外字初步整理表（第一部分）](https://github.com/lxgw/ext-characters/blob/main/tables/ext_characters_table_1.md)。
 
