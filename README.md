@@ -15,7 +15,7 @@
 6. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/kirakara-round/issues) 提出。
 
 下个版本修复：
-`入没纪`不协调
-拉丁字母替换成小彬
+1. `入没纪`不协调
+2. 拉丁字母替换成小彬
 
 本字体使用 OFL 协议，可免费商用、随意修改等。
