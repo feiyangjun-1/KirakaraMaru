@@ -18,5 +18,6 @@
 1. `入没纪`不协调
 2. 拉丁字母替换成小彬
 3. 尽量补齐剩下的字
+4. 可能会添加 [绵饴字集](https://www.maoken.com/eyes/business/27905.html) 和 [NAF194](https://github.com/Hansha2011/NAF/blob/main/NAF194.md) 里的字
 
 本字体使用 OFL 协议，可免费商用、随意修改等。
