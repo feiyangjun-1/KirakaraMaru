@@ -12,7 +12,7 @@
 3. 程序生成的字体会有不协调的问题。
 4. 虽然已经人工检查，但可能还是会有部分字有错误（少比划之类的）。
 5. “亠”仍然是竖横；衤礻上面是竖，不是点；“之”不是大陆规范。这些如果要改掉的话训练用字就就几乎没了，所以没改。以后有可能会改。
-6. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/kirakara-round/issues) 提出。
+6. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/KirakaraMaru/issues) 提出。
 
 下个版本修复：
 1. `入没纪`不协调
