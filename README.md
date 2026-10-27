@@ -18,7 +18,7 @@
 3. 程序生成的字体会有不协调的问题。
 4. 虽然已经人工检查，但可能还是会有部分字有错误。
 5. “亠”仍然是竖横；衤礻上面是竖，不是点；“之”不是大陆规范。这些如果要改掉的话训练用字就就几乎没了，所以没改。以后有可能会改。
-6. [issue#1](https://github.com/feiyangjun-1/KirakaraMaru/issues/1)
+6. [Issue#1](https://github.com/feiyangjun-1/KirakaraMaru/issues/1)
 7. 如有发现问题请在 [Issues](https://github.com/feiyangjun-1/KirakaraMaru/issues) 提出。
 
 下个版本修复：
