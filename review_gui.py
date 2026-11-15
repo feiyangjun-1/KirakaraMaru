@@ -169,7 +169,8 @@ def build_suggestions(codepoints, glyphs, ref_font, cache_path, key):
 
 
 class Reviewer:
-    def __init__(self, root, items, glyphs, order, ref_font, paths, only_undecided, panel):
+    def __init__(self, root, items, glyphs, order, ref_font, paths, only_undecided, panel,
+                 target_font=None):
         self.root = root
         self.glyphs = glyphs
         self.order = order
@@ -188,6 +189,7 @@ class Reviewer:
 
         os.makedirs(self.best_dir, exist_ok=True)
         self.ref = GlyphRenderer(ref_font, 256)
+        self.target = GlyphRenderer(target_font, 256) if target_font else None
         self._photos = []
 
         root.title("pick the best sampler output")
@@ -252,6 +254,11 @@ class Reviewer:
         for name in self.order:
             path = self.glyphs[name].get(cp)
             panels.append(Image.open(path).convert("RGB") if path else blank)
+        labels = ["ref"] + self.order
+        if self.target is not None:
+            original = self.target.render(cp)
+            panels.append(original if original is not None else blank)
+            labels.append("target" if original is not None else "target (missing)")
 
         strip = Image.new("RGB", (size * len(panels) + gap * (len(panels) - 1), size), (30, 30, 30))
         for i, img in enumerate(panels):
@@ -259,7 +266,7 @@ class Reviewer:
                 img = img.resize((size, size), Image.LANCZOS)
             strip.paste(img, (i * (size + gap), 0))
         d = ImageDraw.Draw(strip)
-        for i, lab in enumerate(["ref"] + self.order):
+        for i, lab in enumerate(labels):
             d.text((i * (size + gap) + 4, 4), lab, fill=(120, 120, 120))
 
         photo = ImageTk.PhotoImage(strip)
@@ -355,6 +362,7 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--gen-root", default=os.path.join(RUN, "gen_gb2312_balanced500"))
     ap.add_argument("--ref-font", default=os.path.join(RUN, "ref.otf"))
+    ap.add_argument("--target-font", help="Original target font to display in the rightmost panel.")
     ap.add_argument("--out", default=os.path.join(RUN, "gb2312_best"))
     ap.add_argument("--only-undecided", action="store_true")
     ap.add_argument("--panel", type=int, default=256)
@@ -370,6 +378,7 @@ def main():
     print(f"{len(codepoints)} characters present in every sampler")
 
     _, ref_path = load_font(args.ref_font)
+    target_path = load_font(args.target_font)[1] if args.target_font else None
     tag = os.path.basename(os.path.normpath(args.gen_root))
     cache = os.path.join(RUN, f"review_{tag}_suggest.json")
     key = f"{sorted(order)}:{len(codepoints)}:{os.path.getmtime(ref_path)}"
@@ -383,7 +392,8 @@ def main():
 
     root = tk.Tk()
     app = Reviewer(root, items, glyphs, order, str(ref_path), paths,
-                   args.only_undecided, args.panel)
+                   args.only_undecided, args.panel,
+                   target_font=str(target_path) if target_path else None)
     if getattr(app, "items", None):
         root.mainloop()
 
