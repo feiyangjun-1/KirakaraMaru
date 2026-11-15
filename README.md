@@ -1,8 +1,8 @@
 # 耀圆体 KirakaraMaru
 
-本字体以 [寒蝉全圆体](https://github.com/Warren2060/ChillRound) 为目标字体，人工挑选原字体中符合大陆规范的字后使用 [zi2zi-JiT](https://github.com/kaonashi-tyc/zi2zi-JiT) 训练其风格，以 [文渊黑体、文渊宋体](https://github.com/takushun-wu/WenYuanFonts) 为结构参考字体，重新生成剩余字。
+本字体以 [寒蝉全圆体](https://github.com/Warren2060/ChillRound) 为目标字体，人工挑选原字体中符合大陆规范的字后使用 [zi2zi-JiT](https://github.com/kaonashi-tyc/zi2zi-JiT) 训练其风格，以 [文渊宋体](https://github.com/takushun-wu/WenYuanFonts) 和 [字形维基中的单字svg](zhs.glyphwiki.org) 为结构参考字体，重新生成剩余字。
 
-> 1.2及以前的版本使用过的参考字体还包含 [思源黑体CN](https://github.com/adobe-fonts/source-han-sans)、[Jigmo](https://kamichikoichi.github.io/jigmo/) 和 [遍黑体](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project)。之后的版本不再使用这些字体，也不包含以其作为参考的字型。
+> 1.2及以前的版本使用过的参考字体还包含 [思源黑体CN](https://github.com/adobe-fonts/source-han-sans)、[Jigmo](https://kamichikoichi.github.io/jigmo/) 和 [遍黑体](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project)。之后的版本不再使用这些字体，也不包含以其作为参考而生成的字型。
 
 对于 AI 造字，[落霞孤鹜](https://github.com/lxgw) 大佬根据 [OFL 官网](https://openfontlicense.org/ofl-faq/) 给出了解释：https://github.com/feiyangjun-1/Sumr-Sans/issues/1 。所以无需担心本字体协议与授权问题。但本字体也只是缓兵之计，希望有后来者可以做出此字体的完美替代品。
 
